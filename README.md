@@ -2,7 +2,7 @@
 TypeScript 
 Documentation**  
 
-**##TypeScript Features**
+**##TypeScript Features**   
 TypeScript is an open source, strongly typed and statically typed framework.   
 It is the super set of JS.   
 It is an extension of ES6 version of JS framewor with additional features.     
@@ -15,23 +15,22 @@ It supports JS libraries.
 It has compile time error checking, type checking and auto completion of the statements.    
 It is portable.   
 
-**##Components of TypeScript:**
+**##Components of TypeScript:**   
 Language - all keywords and syntax   
 TS Compiler : Transpiling.   
 GTS Language services : provides features like autocompletion of the statements, typeData chekcing, error checking, formatting, coloration etc.   
 
-**##Datatypes of TS**
+**##Datatypes of TS**    
 Primitive - number, string, boolean, void, null, undefined, any    
 User Defined - array, function, enum, tuple, class, interface    
 
-**###Array:** Arrays are homogenous collection of elements. They are dynamic.    
+**###Array:**    
+Arrays are homogenous collection of elements. They are dynamic.    
 Declaration: let arr1:number[] = [1,2,3,4];   
-let arr1:Array<number> = [1,2,3,4];    
-   
- 
-   
-   
-
-
-   
-**##TASK SIX: CLASSES AND OBJECTS**  
+let arr1:Array<number> = [1,2,3,4]; 
+**###Tuple:**
+Arrays of heterogenous elements with proper ordering.    
+type type1 = [number,string];   
+let arr1:type1 = [1,"Hi"];   
+let [b,c] = arr1; (destructuring)     
+**###Interface**
