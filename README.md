@@ -2,7 +2,7 @@
 TypeScript 
 Documentation**  
 
-**## TypeScript Features**   
+**##TypeScript Features**
 TypeScript is an open source, strongly typed and statically typed framework.   
 It is the super set of JS.   
 It is an extension of ES6 version of JS framewor with additional features.     
